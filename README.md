@@ -24,6 +24,8 @@ A list of libbraries used in this project:
 
 **SAMPLE OUTPUT RESULTS
 
+**Found in the 'Results' branch:
+
 1. A sample of the output of the gateway when it is receiving packets from the nodes is shown on the image titled "terminal_output.png".
 2. After successfully registering devices, your TTN console should look something like that on the image titled "registered_devices.png".
 3. A sample of the output of the terminal after successfully executing the API code is shown in the image titled "API_output.png".
