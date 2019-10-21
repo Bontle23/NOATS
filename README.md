@@ -37,11 +37,11 @@ A list of libbraries used in this project:
 
 **Node
 
-1.Connect the soil moisture sensor to the ADC
-2.The ADC uses SPI to communicate with the MCU, connect the pins accordingly with the Raspberry Pi 2B SPI connections.
-3.The DS18B20 uses 1-wire interface to communicate with the MCU, connect it to the designated 1-wire pin on the Raspberry Pi.
-4.Connect the antenna onto the LoRa module on the pin labelled "ANT".
-5.When the antenna is fully secure, connect the LoRa module to the Raspberry Pi (make use of the datasheets to make sure to connect to the correct pins).
+1. Connect the soil moisture sensor to the ADC
+2. The ADC uses SPI to communicate with the MCU, connect the pins accordingly with the Raspberry Pi 2B SPI connections.
+3. The DS18B20 uses 1-wire interface to communicate with the MCU, connect it to the designated 1-wire pin on the Raspberry Pi.
+4. Connect the antenna onto the LoRa module on the pin labelled "ANT".
+5. When the antenna is fully secure, connect the LoRa module to the Raspberry Pi (make use of the datasheets to make sure to connect to the correct pins).
 6. Execute the code in "send_sensor_data.py"
 
 If not registered with the The Things Network, register at https://thethingsnetwork.org to register devices and a gateway.
