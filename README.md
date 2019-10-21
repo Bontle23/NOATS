@@ -36,7 +36,7 @@ A list of libbraries used in this project:
 
 **Acquire the materials listed in the BOM above.
 
-**Set up gateway
+**SET UP GATEWAY
 
 1. Connect antenna to the LoRa module pin labelled "ANT".
 2. Connect the LoRa module to the Raspberry Pi 3.
@@ -45,7 +45,7 @@ A list of libbraries used in this project:
 5. A sample of the output of the gateway when it is receiving packets from the nodes is shown on the image titled "terminal_output.png".
 
 
-**Node
+**NODE
 
 1. Connect the soil moisture sensor to the ADC
 2. The ADC uses SPI to communicate with the MCU, connect the pins accordingly with the Raspberry Pi 2B SPI connections.
@@ -81,7 +81,7 @@ create table soil_moisture(time_stamp datetime primary key, moisture double, snr
 create user 'newuser'@'localhost' identified by 'password';
 grant all privileges on Bontle_database.* to 'user'@ip_addresss with grant option; 
 
-**Displaying sensor data on Grafana
+**DISPLAY SENSOR DATA ON GRAFANA
 
 1. Navigate to http://grafana.com
 2. Select MySQL as a datasource
