@@ -32,7 +32,8 @@ A list of libbraries used in this project:
 1. Connect antenna to the LoRa module pin labelled "ANT".
 2. Connect the LoRa module to the Raspberry Pi 3.
 3. In the "gatewaytwo" folder, open the global_conf.json file to ensure the pin numbers set correspond with the physical ones.
-4. Execute the "single_chan_pkt_fwd" code in the "gateway" folder .
+4. Execute the "single_chan_pkt_fwd" code in the "gateway.zip" file .
+5. A sample of the output of the gateway when it is receiving packets from the nodes is shown on the image titled "terminal_output.png".
 
 
 **Node
