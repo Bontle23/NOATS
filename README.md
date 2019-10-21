@@ -72,4 +72,4 @@ grant all privileges on Bontle_database.* to 'user'@ip_addresss with grant optio
 1. Navigate to http://grafana.com
 2. Select MySQL as a datasource
 3. Enter credentials created in the database creation section above
-4. When connected, the sensor tables will appear. Select the one(s) required and voila!
+4. When connected, the sensor tables will appear. Select the one(s) required and voila! You can now monitor your sensor data in real time. Congratulations.
