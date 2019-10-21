@@ -22,9 +22,17 @@ A list of libbraries used in this project:
 6. MQTT Python client: for accessing sensor data via the things network API
       - pip3 install paho-mqtt
 
+**SAMPLE OUTPUT RESULTS
 
+1. A sample of the output of the gateway when it is receiving packets from the nodes is shown on the image titled "terminal_output.png".
+2. After successfully registering devices, your TTN console should look something like that on the image titled "registered_devices.png".
+3. A sample of the output of the terminal after successfully executing the API code is shown in the image titled "API_output.png".
+4. Individual soil moisture and soil temperature consoles are shown on the images titled "soil_moisture_console.png" and "temperature_console.png" respectively
+5. A sample output of a sensor sending data to TTN is shown in the image titled "soil_moisture_data.png'
+6. The metadata provided by TTN giving information about the packets sent is shown in the image titled "moisture_metadata.png".
+7. The soil moisture and soil temperature graphs generated in Grafan are shown in images titled "grafana_soil_moisture.png" and "grafana_soil_temperature.png" respectively. 
 
-**Step-by-step approach to creating the system
+**Step-by-step approach to creating the NOATS based Wireless Sensor Network
 **Acquire the materials listed in the BOM above.
 
 **Set up gateway
@@ -45,11 +53,15 @@ A list of libbraries used in this project:
 5. When the antenna is fully secure, connect the LoRa module to the Raspberry Pi (make use of the datasheets to make sure to connect to the correct pins).
 6. Execute the code in "send_sensor_data.py"
 
-If not registered with the The Things Network, register at https://thethingsnetwork.org to register devices and a gateway.
+**If not registered with the The Things Network, register at https://thethingsnetwork.org to register devices and a gateway.
+
+1. After successfully registering devices, your TTN console should look something like that on the image titled "registered_devices.png".
+2. Individual soil moisture and soil temperature consoles are shown on the images titled "soil_moisture_console.png" and "temperature_console.png" respectively.
 
 **To extract data from The Things Network, use TTN API and send to database.
 
-1. Execute the code "collect_data.py" found in the folder named "API".
+1. Execute the code "collect_data.py" found in the repo.
+2. A sample of the output of the terminal after successfully executing the API code is shown in the image titled "API_output.png".
 
 **Using MySQL
 
