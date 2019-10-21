@@ -1,5 +1,5 @@
 #!/<path-to>/python
-"""python code to connect to the things network PI to collect data and send it to the database for storage
+"""python code to connect to the things network API to collect data and send it to the database for storage
 Author: Bontle Mere
 NOATS Project
 """
