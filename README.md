@@ -1,6 +1,8 @@
 # NOATS
 Networked Open source Agricultural Things Specification
 
+**THIS PROJECT HAS 3 BRANCHES: MASTER, CODE & RESULTS
+
 Bill of Materials
 1. Seeed Studio soil moisture sensor
 2. DS18B20 digital temperature sensor
