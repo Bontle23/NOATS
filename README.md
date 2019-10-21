@@ -67,20 +67,20 @@ A list of libbraries used in this project:
 
 **Using MySQL
 
-The following instructions are executed on the mysql shell in a Linux-based machine. 
-See: https://support.rackspace.com/how-to/installing-mysql-server-on-ubuntu/
+ The following instructions are executed on the mysql shell in a Linux-based machine. 
+ See: https://support.rackspace.com/how-to/installing-mysql-server-on-ubuntu/
 
 **Create a database and tables for each sensor*
 
-create schema Bontle_database;
-use Bontle_database;
-create table temperature(time_stamp datetime primary key, temperature double, snr double, rssi double);
-create table soil_moisture(time_stamp datetime primary key, moisture double, snr double, rssi double);
+ create schema Bontle_database;
+ use Bontle_database;
+ create table temperature(time_stamp datetime primary key, temperature double, snr double, rssi double);
+ create table soil_moisture(time_stamp datetime primary key, moisture double, snr double, rssi double);
 
 **create new user to have access to the database, this is needed so that the pi can insert data into the database*
 
-create user 'newuser'@'localhost' identified by 'password';
-grant all privileges on Bontle_database.* to 'user'@ip_addresss with grant option; 
+ create user 'newuser'@'localhost' identified by 'password';
+ grant all privileges on Bontle_database.* to 'user'@ip_addresss with grant option; 
 
 **Displaying sensor data on Grafana
 
