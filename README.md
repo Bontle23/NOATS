@@ -77,7 +77,7 @@ A list of libbraries used in this project:
  create table temperature(time_stamp datetime primary key, temperature double, snr double, rssi double);
  create table soil_moisture(time_stamp datetime primary key, moisture double, snr double, rssi double);
 
-**create new user to have access to the database, this is needed so that the pi can insert data into the database*
+**Create new user to have access to the database, this is needed so that the pi can insert data into the database*
 
  create user 'newuser'@'localhost' identified by 'password';
  grant all privileges on Bontle_database.* to 'user'@ip_addresss with grant option; 
