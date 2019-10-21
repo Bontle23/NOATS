@@ -1,5 +1,5 @@
 """
-python code to send data from the senors to read the dat from the senors and send it to the server 
+python code to send data from the senors to read the data from the senors and send it to the server 
 Author: Bontle Mere
 """
 #import the required libraries 
