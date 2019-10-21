@@ -1,6 +1,7 @@
 #!/<path-to>/python
 """python code to connect to the things network PI to collect data and send it to the database for storage
 Author: Bontle Mere
+NOATS Project
 """
 # import the required libraries
 import json
@@ -10,12 +11,12 @@ import mysql.connector
 import paho.mqtt.client as mqtt
 
 #the following are required to connect to the APi and are found on the things network console
-APPEUI = "70B3D57ED0022F9E"
-APPID  = "thusang"
-PSW    = 'ttn-account-v2.DMO9iviCnnPDk_12Zig_NnLhfowCV1_hltn3rF_7lG0'
+APPEUI = ""  #insert your App EUI here
+APPID  = ""  #insert your App ID here
+PSW    = ''  #insert you App Key here
 
 # create mysql connector object to access the database
-mydb = mysql.connector.connect(user = "nodepi", database="Bontle_database", passwd = "pi", host="196.42.78.200", port="3306")
+mydb = mysql.connector.connect(user = "", database="", passwd = "", host="", port="3306")
 mycursor = mydb.cursor()
 # gives connection message
 def on_connect(mqttc, mosq, obj,rc):
@@ -91,7 +92,7 @@ def addTemperature(time_stamp, device_reading, snr, rssi):
     mycursor.execute(sql, val)
     mydb.commit()
     #print("Here!")
-#@def push_to_server():
+#MQTT to communicate with server, @def push_to_server():
 mqttc= mqtt.Client()
 # Assign event callbacks
 mqttc.on_connect=on_connect
