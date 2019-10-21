@@ -33,6 +33,7 @@ A list of libbraries used in this project:
 7. The soil moisture and soil temperature graphs generated in Grafan are shown in images titled "grafana_soil_moisture.png" and "grafana_soil_temperature.png" respectively. 
 
 **Step-by-step approach to creating the NOATS based Wireless Sensor Network
+
 **Acquire the materials listed in the BOM above.
 
 **Set up gateway
